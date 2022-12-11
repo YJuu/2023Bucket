@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023년 버킷리스트</title>
+    <Style>
+        @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+        * {
+            font-family: 'Gamja Flower', cursive;
+        }
+
+        html {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .title {
+            color: #F7A4A4;
+            background-color: white;
+            font-size: 24px;
+            padding: 4px 14px;
+            border-radius: 8px;
+        }
+
+        .bg {
+            width: 360px;
+            /*background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");*/
+            background-image: url("https://mblogthumb-phinf.pstatic.net/20150712_15/dearso__1436677246914zKWHf_JPEG/IMG_0833.JPG?type=w2");
+            background-position: center;
+        }
+
+        .msg {
+            font-weight: bold;
+            color: tomato;
+            margin: -10px 0 30px;
+        }
+
+        .bucket {
+            background-size:cover;
+            background-position: center;
+            margin: 8px;
+            position: relative;
+
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            word-break: keep-all;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            color: white;
+        }
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            color: #F7A4A4;
+        }
+
+
+        .flex-row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .done ::after {
+            content: "";
+            width: 70%;
+            height: 70%;
+            background-image: url("https://postfiles.pstatic.net/MjAyMjEyMTFfMjI3/MDAxNjcwNjk1MzQyMjQ3.z6Ov8gr8bMZRupu17MHQ22F5VJUArnCK1zyrFnMfexgg.KDEOT8X65MOLjKyeiNHAHV1nfnnlcLvMZwGogI_6Goog.PNG.yj5048/03_%EB%85%B8%EB%9E%98%EC%BD%A9.png");
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            top: 20%;
+        }
+
+        .wrap {
+            flex-wrap: wrap;
+        }
+    </Style>
+    <!--link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css"-->
+</head>
+
+<body class="bg center">
+    <h1 class="title">2023년 버킷리스트</h1>
+    <p class="msg">그냥 지나가는 한 해가 아니길!</p>
+    <div class="flex-row">
+        <div class="bucket img1 center">2천 모으기</div>
+        <div class="bucket img2 center">어디든 좋으니 여행 한 번 다녀오기</div>
+        <div class="bucket img2 center">개인 프로젝트 하나 이상 진행하기</div>
+        <div class="bucket img1 center">회사 작업 포폴화 시키기</div>
+        <div class="bucket img1 center">몸무게 앞자리 바꾸기</div>
+        <div class="bucket img2 center">알차고 꽉찬 추억 만들기</div>
+    </div>
+</body>
+
+</html>
